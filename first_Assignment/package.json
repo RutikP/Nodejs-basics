@@ -1,0 +1,15 @@
+{
+  "name": "first_assignment",
+  "version": "1.0.0",
+  "description": "This is just dummy project",
+  "main": "node.js",
+  "scripts": {
+    "test": "Hello there",
+    "start": "nodemon node.js"
+  },
+  "author": "Rutik",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
