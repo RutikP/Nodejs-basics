@@ -1,0 +1,18 @@
+<%- include('includes/head.ejs') %>
+  </head>
+  <body>
+    <%- include('includes/nav.ejs') %>
+    <main>
+      <% if (prods.length>0) { %>
+        
+        <% for (let product of prods) { %>
+            
+            <h2><%= product.title %></h2>
+        <% } %>
+        
+      <% } else { %>
+        <h1>No Products found</h1>
+      <% } %>
+    </main>
+  </body>
+</html>
